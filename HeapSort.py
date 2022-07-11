@@ -83,11 +83,7 @@ class PQBinaryHeap:
         # method body goes here
         return self._size
 
-    #
-    # Now, the methods needed for the underlying heap implementation
-    # These are designated 'private', with the leading underscore, since
-    # client code should not have access to these - all access to the PQ
-    # is meant to be via the standard 4 methods
+   
 
     def _upheap(self, posn):
         """ Bubble the item in posn in the heap up to its correct place. """
